@@ -163,7 +163,7 @@ if __name__ == '__main__':
     # команды рисования на холсте
     pygame.display.set_caption('Игра «Жизнь»')
 
-    board = Board(25, 25)
+    board = Life(25, 25)
     board.set_view(0, 0, 20)
     running = True
     flag = False
